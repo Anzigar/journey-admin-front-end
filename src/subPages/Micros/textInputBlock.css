@@ -1,0 +1,22 @@
+.TextInputBlockMain{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.InputnameTextInputBlock{
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.InputTextInputBlock{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #008314;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.errorInput{
+    border: 1px solid #ff3636;
+}

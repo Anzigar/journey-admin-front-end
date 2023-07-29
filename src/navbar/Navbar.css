@@ -1,0 +1,28 @@
+.buttonIconsOffences{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.iconButtonNaigation{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+.iconButtonNaigation:hover {
+  background-color: #BEE8E1aa;
+
+}
+.iconButtonNaigation span {
+  color: #008134;
+  font-size: 26px;
+}

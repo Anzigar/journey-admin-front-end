@@ -1,0 +1,91 @@
+.UserDispCompMain{
+    width: 100%;
+    max-width: 330px;
+    padding-top: 25px;
+}
+
+.UserDispContentHolder{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.userNameSectionUserDispComp{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.userNameUserDispComp{
+    font-size: 1rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.UserDetailsListUserDispComp{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.UserDetailListUserDispComp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.UserDetailTitleUserDispComp{
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+
+.UserDetailValueUserDispComp{
+    font-size: 12px;
+    color: #444;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ButtonActsUserDispComp{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.UserDispButtons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #bee8e1;
+    border: #ff3636 solid 1px;
+}
+
+.editButtonUserDisp{
+    margin-right: 10px;
+    border: #008134 solid 1px;
+}
+
+.UserDispButtons span{
+    font-size: 20px;
+    color: #ff3636;
+}
+
+.editButtonUserDisp span{
+    color: #008134;
+}
