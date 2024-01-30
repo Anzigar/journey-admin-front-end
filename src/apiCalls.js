@@ -21,6 +21,8 @@ export const sendToBackendPost = async (link, data) => {
     return result;
 }
 
+
+
 export const sendToBackendPostImage = async (link, data) => {
     let result;
     result = await axios.post(link, data, {
