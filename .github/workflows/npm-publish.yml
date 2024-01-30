@@ -9,6 +9,10 @@ on:
 
 jobs:
   build:
+
+  strategy:
+    matrix:
+     node-version: [ 16x ]
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
